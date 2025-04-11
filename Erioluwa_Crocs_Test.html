@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Erioluwa Crocs Coleections</title>
+    <!--Font Awesome -->
+    <link rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all/min.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet"
+href="style.css">
+</head>
+<body>
+        <div class="collapse
+navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav
+ms-auto">
+          <li class="nav-item"><a
+class="nav-link"
+href="#home">Home</a></li>
+          <li class="nav-item"><a
+class="nav-link"
+href="#about">About</a></li>
+          <li class="nav-item"><a 
+class="nav-link"
+href="#events">Events</a></li>
+          <li class="nav-item"><a
+class="nav-link"
+href="#contact">Contact</a></li>
+        </ul>
+       </div>
+   </div>
+ </nav>
+ 
+ <!--Hero Section -->
+ <header class="hero bg-primary
+text-white text-center">
+      <div class="container py5">
+        <h1>Welcome to Erioluwa Crocs Coleections</h1>
+        <p
+class="lead">Your One-Stop Shop for Stylish and Comfortable Crocs!</p>
+        <a href="#admissions"
+class="btn btn-light btn-lg">Apply NOW</a>
+    </div>
+   </header>
+</body>
+</html>
+<section id="admissions"
+class="bg-light py-5">
+  <div class="container">
+   <h2 class="text-center
+mb-4">Application</h2>
+   <p class="text-center
+mb-5">We offer a wide range of high-quality Crocs to suit your style and comfort needs.</p>
+   <div class="row
+justify-content-center">
+        <div class="col-md-6">
+         <form
+action="process-admission.php"
+method="POST" class="bg-white p-4 shadow"></form>
+         <div class="mb-3">
+           <label for="name"
+class="form-label">Full Name</label>
+            <input type="text"
+class="form-control" id="name"
+name="name" required>
+        </div>
+        <div class="mb-3">
+          <label for="email"
+class="form-label">Email Adress</label>
+          <input type="email"
+class="form-control" id="email"
+name="email" required>
+        </div>
+        <div class="mb-3">
+          <label for="program"
+class="form-label">Program of interest</label>
+          <select
+class="form-control" id="program"
+name="program">
+           <option>Adult-Crocs</option>
+           <option>Teenager-Crocs</option>
+           <option>Child-Crocs</option>
+        </select>
+    </div>
+    <button type="submit"
+class="btn btn-primary
+w-100">Submit Application</button>
+       </form>
+    </div>
+   </div>
+  </div>
+</section>
+<section id="events" class="py-5">
+  <div class="container">
+    <h2 class="text-center"
+mb-4">Upcoming Events</h2>
+    <div class="row">
+     <div class"col-md-4">
+       <div class="card
+shadow">
+        <img src="images/event1.jpg" class="card-img-top"
+alt="Event 1">
+        <div
+class="card-body">
+         <h5
+class="card-title">Special Offer</h5>
+         <p
+class="card-text">Affordable prices at 10%off.</p>
+         <p><strong>Date:</strong>March 15,2025</p>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-4">
+      <div class="card
+shadow">
+       <img src="images/event2.jpg" class="card-img-top"
+alt="Event 2">
+       <div
+class="card-body">
+        <h5
+class="card-title">Yearly Giveaway</h5>
+        <p
+class="card-text">Yearly giveaway of crocs.</p>
+        <p><strong>Date:</strong>April ,2025</p>
+        </div>
+       </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card
+shadow">
+         <img src="images/event3.jpg" class="card-img-top
+alt="Event 3">
+         <div
+class="card-body">
+          <h5
+class="card-title">Christmas Discount</h5>
+          <p
+class="card-title">Yearly deduction of prices for christmas fesivals.</p>
+          <p><strong>Date:</strong>December 25,2025</p>
+          </div>
+         </div>
+        </div>
+       </div>
+      </div>
+</section>
+<section id="contact"
+class="bg-light py-5">
+   <div class="container">
+    <h2 class="text-center
+mb-4">Contact Us</h2>
+    <div class="row">
+     <div class="col-md-6">
+       <h4>Erioluwa Crocs Collection</h4>
+       <p><i class="fas
+fa-map-marker-alt"></i>No.7 Olorungbebe street</p>
+       <p><i class="fas
+fa-phone"></i>+234 806 305 6672</p>
+       <p><i class="fas
+fa-envelope"></i>info@Erioluwa Crocs Collection.com</p>
+         <iframe
+src="https://maps.google.com/maps?q=No.%207%20Olorun%20Gbebe%20Street&t=&z=13&
+ie=UTF8&iwloc=&output"
+width="100%" height="300"></iframe>
+      </div>
+      <div class="col-md-6">
+        <form
+action="contact.php"
+method="POST" class="bg-white
+p-4 shadow">
+          <div class="mb-3">
+            <label for="name"
+class="form-label">Your Name</label>
+            <input type="text"
+class="form-control" id="name"
+name="name" required>
+          </div>
+          <div class="mb-3">
+            <label for="email"
+class="form-label">Your Email</label>
+            <input type="email"
+name="email" required>
+        </div>
+        <div class="mb-3">
+          <label for="message"
+class="form-label">Your message</label>
+          <textarea
+class="form-control"
+id="message" name="message"
+rows="5" required></textarea>
+          </div>
+          <button type="submit"
+class="btn btn-primary
+w-100">Send Message</button>
+        </form>
+       </div>
+      </div>
+     </div>
+</section>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport"
+content="width=device-width,initial-scale=1.0">
+  <title>Subscription Login</title>
+  <link rel="stylesheet"
+href="style.css">
+</head>
+<body>
+  <div class="login-container">
+   <h2>Login</h2>
+   <form action="login.php"
+method="POST">
+     <input type="text"
+name="username"
+placeholder="Username"
+required>
+       <input type="password"
+name="password"
+placeholder="Password" required>
+       <button
+type="submit">Login</button>
+    </form>
+  </div>
+</body>
+</html>
